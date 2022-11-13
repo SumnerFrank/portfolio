@@ -10,9 +10,8 @@
 </head>
 <!--Header with Functional Navigation Bar-->
 <body>
-        <header>
+        <header id="main-header">
             <h1>Frank Sumner</h1>
-            <nav>
                 <ul>
                     <li>
                         <a href="#about">About Me</a>
@@ -27,23 +26,22 @@
                         <a href="#resume">Resume</a>
                     </li>
                 </ul>
-            </nav>
+
         </header>
 
-
-<!--Subtitle-->
-<section class="hero">    
-    <div class="subtitle">
-        <h2>DIY & DRY</h2>
-        <p>Do It Yourself & Don't Repeat Yourself</p>
-    </div>
-    </section>
 
 <!--About Me/Bio Section-->
 
     <bio>
+        <hero>
+        <div class="subtitle">
         <img src="./assets/images/IMG_2378.jpg" alt="photo of Frank Sumner"/>
-        <section id="about">I am Frank Sumner. I am a recent UCF graduate as of May 2020. I was born and raised in Florida.
+            <h2>DIY & DRY</h2>
+            <h3>Do It Yourself & Don't Repeat Yourself</h3>
+        </div>
+        </hero>
+        <section id="about">
+            I am Frank Sumner. I am a recent UCF graduate as of May 2020. I was born and raised in Florida.
             I finished with a bachelors degree in history which further furnished my ability to think critically, draw conclusions from given information, and how to support those conclusions with evidence.
             While I was in school, I was also working full time at Universal Studios Florida in various roles. I was able to continue to progress my career while continuing my education.
             Time management, project management, and customer support are three of my top skills. 
@@ -55,33 +53,28 @@
 
 <!--Portfolio Content Section-->
 
-    <div id="project" section class="card">
+    <div id="projects">
         <section class="card-main">
-            <header>Placeholder App 1</header>
-            <img src="./assets/images/GradHat.jpeg">
+            <header class="flexbox-main">Study Buddy
+            <img src="./assets/images/GradHat.jpeg"></header>
         </section>
-        <section class="card-sub">
-            <header>Placeholder App 2</header>
-            <img src="./assets/images/Drums.jpeg">
-        </section>
-        <section class="card-sub">
-            <header>Placeholder App 3</header>
-            <img src="./assets/images/climbing.avif">
-        </section>
-        <section class="card-sub">
-            <header>Placeholder App 4</header>
-            <img src="./assets/images/Running.webp">
-        </section>
-        <section class="card-sub">
-            <header>Placeholder App 5</header>
-            <img src="./assets/images/coding.jpeg">
-        </section>
+        <div class="flexbox-container1">
+            <header class="flexbox-item flexbox1">Drum Teacher
+            <img src="./assets/images/Drums.jpeg"></header>
+            <header class="flexbox-item flexbox2">Route Finder
+            <img src="./assets/images/climbing.avif"></header>
+        <div class="flexbox-container2">
+            <header class="flexbox-item flexbox3">Pacekeeper
+            <img src="./assets/images/Running.webp"></header>
+            <header class="flexbox-item flexbox4">How To Not Code Badly
+            <img src="./assets/images/coding.jpeg"></header>
+        </div>
     </div>
 
 <!--Contact Info Sheet-->
 
     <section id="contact">
-        <h3 class="section-title">Contact Me<h3> 
+        <h4 class="section-title">Contact Me<h4> 
             <div class="links">
                 <ul>
                     <li>
