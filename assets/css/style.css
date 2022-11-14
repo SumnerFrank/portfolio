@@ -5,10 +5,11 @@ body {
 #main-header {
   background-color: grey;
   color: white;
+  border: 3px solid black;
 }
 
 
-bio img {
+.subtitle img {
     border-radius: 0% 50% 50% 0%;
     max-width: 25%;
     height: auto;
@@ -27,6 +28,8 @@ bio img {
 #about {
 background-color: grey;
 color: white;
+border: 3px solid black;
+
 }
 
 .flexbox-container1 {
@@ -70,3 +73,7 @@ header ul li:hover {
   cursor: pointer;
 }
 
+#contact {
+  border: 3px solid black;
+  background-color: bisque;
+}
