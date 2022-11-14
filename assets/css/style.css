@@ -8,6 +8,14 @@ body {
   border: 3px solid black;
 }
 
+.nav li {
+flex-direction: row;
+}
+
+.nav li:hover {
+  background: white;
+  cursor: pointer;
+}
 
 .subtitle img {
     border-radius: 0% 50% 50% 0%;
@@ -16,6 +24,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 
   h2 {
     float: right;
@@ -29,19 +38,15 @@ body {
 background-color: grey;
 color: white;
 border: 3px solid black;
-
+display: flex
 }
 
 .flexbox-container1 {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .flexbox-container2 {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .flexbox-main {
@@ -49,6 +54,9 @@ border: 3px solid black;
   margin: 35px;
   border: 3px solid black;
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexbox-item {
@@ -56,9 +64,12 @@ border: 3px solid black;
   margin: 35px;
   border: 3px solid black;
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-  img {
+img {
     width: 50%;
   }
 
@@ -67,11 +78,6 @@ img:hover {
     filter: grayscale(75%)
 }
 
-
-header ul li:hover {
-  background: white;
-  cursor: pointer;
-}
 
 #contact {
   border: 3px solid black;
