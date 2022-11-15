@@ -44,7 +44,7 @@ flex-direction: row;
 background-color: grey;
 color: white;
 border: 3px solid black;
-display: flex
+display: flex;
 }
 
 #projects {
@@ -75,8 +75,9 @@ img {
 width: 50%;
 }
 
-img:hover {
-    filter: grayscale(75%)
+#projects img:hover {
+    filter: grayscale(75%);
+    cursor: pointer;
 }
 
 
