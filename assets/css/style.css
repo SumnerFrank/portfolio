@@ -6,6 +6,12 @@ body {
   background-color: grey;
   color: white;
   border: 3px solid black;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.name {
+align-self: flex-start;
 }
 
 .nav li {
@@ -57,8 +63,12 @@ display: flex
   background-color: bisque;
 }
 
+.title {
+text-align: center;
+}
+
 img {
-    width: 50%;
+    width: 100%;
   }
 
 .flex-child {
