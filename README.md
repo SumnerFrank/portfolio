@@ -13,3 +13,5 @@
 ## WHEN they click on the images of the applications, THEN they are taken to that deployed application
 ## WHEN they resize the page or view the site on various screens and devices, THEN they are presented with a responsive layout that adapts to my viewport
 
+<img width="758" alt="Screenshot 2022-11-17 at 1 55 20 PM" src="https://user-images.githubusercontent.com/115412068/202534232-abe957f5-952c-4ce6-ae62-ddbaa72d9963.png">
+<img width="759" alt="Screenshot 2022-11-17 at 1 57 04 PM" src="https://user-images.githubusercontent.com/115412068/202534246-78b9e5b2-1c20-44bd-9195-630e0992b221.png">
