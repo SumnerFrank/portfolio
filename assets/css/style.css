@@ -1,12 +1,13 @@
 body {
+  background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 2% 10%
+    margin: 2% 10%;
+    border: 1px solid
 }
 
 #main-header {
   background-color: grey;
   color: white;
-  border: 3px solid black;
   display: flex;
   justify-content: flex-end; 
 }
@@ -46,8 +47,11 @@ flex-direction: row;
 #about {
 background-color: grey;
 color: white;
-border: 3px solid black;
 display: flex;
+}
+
+.bio {
+  margin: 2% 20%
 }
 
 #projects {
@@ -57,12 +61,10 @@ display: flex;
 
 .flexbox-main {
   width: 100%;
-  border: 3px solid black;
   background-color: bisque;
 }
 
 .flexbox-item {
-  border: 3px solid black;
   background-color: bisque;
 }
 
@@ -85,6 +87,6 @@ width: 50%;
 
 
 #contact {
-  border: 3px solid black;
-  background-color: bisque;
+  background-color: grey;
+  color: white;
 }
