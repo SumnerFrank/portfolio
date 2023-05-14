@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica;
-    background-image: url("../images/forestBackground.jpg");
+    background-image: url("/assets/images/forestBackground.jpg");
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
